@@ -20,7 +20,7 @@ html {
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
-  height: 800px;
+  min-height: 800px;
 }
 .first-wrap img {
   margin: 5rem auto 69px;

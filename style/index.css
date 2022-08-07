@@ -5,11 +5,11 @@
   font-family: Averta, sans-serif;
 }
 .header-bg {
-  background: url("assets/hero-bg.svg");
+  background: url("/assets/hero-bg.svg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  min-height: 130vh;
+  height: 800px;
 }
 .zuri-logo img {
   margin: auto;
@@ -155,19 +155,22 @@
   display: flex;
   margin-right: 5rem;
   flex-direction: column;
-
   font-size: 16px;
   font-weight: bold;
   line-height: 24px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 .links h6 {
   color: #514949;
 }
 .links a {
   text-decoration: none;
-  margin-bottom: 0.5rem;
-  color: #e7332b;
-  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #514949;
+  opacity: 0.9;
 }
 .contact {
   font-size: 16px;
@@ -192,15 +195,15 @@
 }
 .social-icons {
   display: flex;
-  justify-content: space-between;
+  margin-right: 5rem;
+  flex-direction: row;
 }
-.social-icons img {
-  width: 10px;
-  height: 10px;
+.social-icons a img {
+  display: flex;
+  flex-direction: column;
   margin-left: 1rem;
-}
-.social-icons a {
-  display: block;
+  width: 18px !important;
+  margin-right: 5px;
 }
 hr {
   width: 95%;

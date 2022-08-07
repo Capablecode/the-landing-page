@@ -15,13 +15,12 @@ html {
   -webkit-tap-highlight-color: transparent;
 }
 .first-wrap {
-  width: 100%;
-  height: 800px;
   color: #514949;
   background: url("/images/hero-bg.svg");
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
+  height: 800px;
 }
 .first-wrap img {
   margin: 5rem auto 69px;
@@ -136,7 +135,7 @@ html {
 }
 .footer-container {
   max-width: 1170px;
-  margin: auto;
+  margin: 0 auto;
 }
 .row {
   display: flex;
@@ -146,7 +145,6 @@ ul {
   list-style: none;
 }
 .footer {
-  /* background-color: #24262b; */
   padding: 70px 0;
 }
 .footer-col {

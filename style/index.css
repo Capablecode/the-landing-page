@@ -15,11 +15,11 @@ html {
   -webkit-tap-highlight-color: transparent;
 }
 .first-wrap {
-  color: #514949;
-  background: url("/images/hero-bg.svg");
+  background-image: url("/images/hero-bg.svg");
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
+  color: #514949;
   height: 800px;
 }
 .first-wrap img {
